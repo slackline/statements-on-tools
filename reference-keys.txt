@@ -8,6 +8,14 @@ opening-code-without-exposing-datasecrets
 opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-ip
 coding-in-the-open
 statement-on-using-tools
+about-this-chapter
+some-use-cases-for-this-chapter
+introduction-2
+what-is-inside-a-package
+why-not-include-all-this-useful-code-in-r
+where-do-you-find-packages
+an-example
+whats-the-problem
 nhs-r-vision
 using-r-in-research
 training
