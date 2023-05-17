@@ -1,14 +1,14 @@
 purpose
 nhs-r-community
-nhs-pycom
 open-code-in-the-nhs
 introduction-1
-glossary-draft
 references
+from-organisationsteams-that-no-longer-operate
 specific-challenges
 opening-code-without-exposing-datasecrets
-opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-ip
+opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-intellectual-property
 coding-in-the-open
+useful-blogs
 statement-on-using-tools
 about-this-chapter
 some-use-cases-for-this-chapter
@@ -28,3 +28,4 @@ how-has-the-nhs-r-community-contributed-to-the-system-thus-far
 what-is-the-need-in-the-system-given-the-change-in-the-health-and-care-landscape
 what-can-the-nhs-r-community-do-to-support-the-system
 we-asked-a-pre-mortem-question---imagine-the-nhs-r-community-has-died-what-led-to-its-demise
+glossary
