@@ -9,7 +9,9 @@ opening-code-without-exposing-datasecrets
 opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-intellectual-property
 coding-in-the-open
 licenceslicenses
-nhs-r-community-use-of-licenses
+language
+how-to-use-licences
+nhs-r-community-use-of-licences
 setting-up-licenses
 useful-blogs
 statement-on-using-tools
