@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Statement on Tools",
     "section": "",
-    "text": "1 Introduction\n\n\n\n\n\n\n\n\n\nIn this book we’ve compiled a set of technical resources, links and write down our experiences of using open data science programs like R and Python within the NHS and beyond.\nIt is highly opinionated and is not representative or endorsed by the NHS or any organisations within the NHS, public sector or civil service. Whilst the views are written by members of the NHS-R Community, these too may not necessarily be shared with everyone equally and even may change over time.\nIf you’d like to contribute or comment feel free to open an issue on the GitHub repository"
+    "text": "1 Introduction\n\nIn this book we’ve compiled a set of technical resources, links and write down our experiences of using open data science programs like R and Python within the NHS and beyond.\nIt is highly opinionated and is not representative or endorsed by the NHS or any organisations within the NHS, public sector or civil service. Whilst the views are written by members of the NHS-R Community, these too may not necessarily be shared with everyone equally and even may change over time.\nIf you’d like to contribute or comment feel free to open an issue on the GitHub repository"
   },
   {
     "objectID": "purpose.html#nhs-r-community",
