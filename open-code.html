@@ -1,228 +1,588 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
-<head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2 Open code | NHS-R Community Handbook</title>
-  <meta name="description" content="A set of resources for anyone using R within the NHS and beyond." />
-  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
 
-  <meta property="og:title" content="2 Open code | NHS-R Community Handbook" />
-  <meta property="og:type" content="book" />
-  <meta property="og:image" content="/images/logo.jpg" />
-  <meta property="og:description" content="A set of resources for anyone using R within the NHS and beyond." />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
-
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2 Open code | NHS-R Community Handbook" />
-  
-  <meta name="twitter:description" content="A set of resources for anyone using R within the NHS and beyond." />
-  <meta name="twitter:image" content="/images/logo.jpg" />
-
-<meta name="author" content="NHS-R Community" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  
-  
-<link rel="prev" href="purpose.html"/>
-<link rel="next" href="statement-on-using-tools.html"/>
-<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
-<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+<title>Statement on Tools - 3&nbsp; Open code in the NHS</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
 
 
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./statement-on-using-tools.html" rel="next">
+<link href="./purpose.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
 
 
-
-
-
-
-<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
-<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-
-
-
-
-<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
-<body>
+<body class="nav-sidebar floating">
 
-
-
-  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
-
-    <div class="book-summary">
-      <nav role="navigation">
-
-<ul class="summary">
-<li><a href="./">NHS-R Community Handbook</a></li>
-
-<li class="divider"></li>
-<li><a href="index.html#section"></a></li>
-<li class="chapter" data-level="1" data-path="purpose.html"><a href="purpose.html"><i class="fa fa-check"></i><b>1</b> Purpose</a></li>
-<li class="chapter" data-level="2" data-path="open-code.html"><a href="open-code.html"><i class="fa fa-check"></i><b>2</b> Open code</a>
-<ul>
-<li class="chapter" data-level="2.1" data-path="open-code.html"><a href="open-code.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a>
-<ul>
-<li class="chapter" data-level="2.1.1" data-path="open-code.html"><a href="open-code.html#glossary-draft"><i class="fa fa-check"></i><b>2.1.1</b> Glossary (DRAFT)</a></li>
-</ul></li>
-<li class="chapter" data-level="2.2" data-path="open-code.html"><a href="open-code.html#references"><i class="fa fa-check"></i><b>2.2</b> References</a></li>
-<li class="chapter" data-level="2.3" data-path="open-code.html"><a href="open-code.html#specific-challenges"><i class="fa fa-check"></i><b>2.3</b> Specific challenges</a>
-<ul>
-<li class="chapter" data-level="2.3.1" data-path="open-code.html"><a href="open-code.html#opening-code-without-exposing-datasecrets"><i class="fa fa-check"></i><b>2.3.1</b> Opening code without exposing data/‘secrets’</a></li>
-<li class="chapter" data-level="2.3.2" data-path="open-code.html"><a href="open-code.html#opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-ip"><i class="fa fa-check"></i><b>2.3.2</b> Opening code without giving away commercial/business/clinical proprietary information (and IP)</a></li>
-<li class="chapter" data-level="2.3.3" data-path="open-code.html"><a href="open-code.html#coding-in-the-open"><i class="fa fa-check"></i><b>2.3.3</b> Coding in the open</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="statement-on-using-tools.html"><a href="statement-on-using-tools.html"><i class="fa fa-check"></i><b>3</b> Statement on using tools</a></li>
-<li class="chapter" data-level="4" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html"><i class="fa fa-check"></i><b>4</b> NHS-R vision</a>
-<ul>
-<li class="chapter" data-level="4.1" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html#using-r-in-research"><i class="fa fa-check"></i><b>4.1</b> Using R in research</a></li>
-<li class="chapter" data-level="4.2" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html#training"><i class="fa fa-check"></i><b>4.2</b> Training</a></li>
-<li class="chapter" data-level="4.3" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html#development"><i class="fa fa-check"></i><b>4.3</b> Development</a></li>
-<li class="chapter" data-level="4.4" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html#events"><i class="fa fa-check"></i><b>4.4</b> Events</a></li>
-<li class="chapter" data-level="4.5" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html#appendix-a-workshop"><i class="fa fa-check"></i><b>4.5</b> Appendix A: workshop</a>
-<ul>
-<li class="chapter" data-level="4.5.1" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html#how-has-the-nhs-r-community-contributed-to-the-system-thus-far"><i class="fa fa-check"></i><b>4.5.1</b> How has the NHS-R Community contributed to the system thus far?</a></li>
-<li class="chapter" data-level="4.5.2" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html#what-is-the-need-in-the-system-given-the-change-in-the-health-and-care-landscape"><i class="fa fa-check"></i><b>4.5.2</b> What is the need in the system given the change in the health and care landscape?</a></li>
-<li class="chapter" data-level="4.5.3" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html#what-can-the-nhs-r-community-do-to-support-the-system"><i class="fa fa-check"></i><b>4.5.3</b> What can the NHS-R Community do to support the system?</a></li>
-<li class="chapter" data-level="4.5.4" data-path="nhs-r-vision.html"><a href="nhs-r-vision.html#we-asked-a-pre-mortem-question---imagine-the-nhs-r-community-has-died-what-led-to-its-demise"><i class="fa fa-check"></i><b>4.5.4</b> We asked a pre-mortem question - imagine the NHS-R Community has died, what led to its demise?</a></li>
-</ul></li>
-</ul></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
-</ul>
-
-      </nav>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./open-code.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Open code in the NHS</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
-
-    <div class="book-body">
-      <div class="body-inner">
-        <div class="book-header" role="navigation">
-          <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">NHS-R Community Handbook</a>
-          </h1>
-        </div>
-
-        <div class="page-wrapper" tabindex="-1" role="main">
-          <div class="page-inner">
-
-            <section class="normal" id="section-">
-<div id="open-code" class="section level1 hasAnchor" number="2">
-<h1><span class="header-section-number">2</span> Open code<a href="open-code.html#open-code" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="introduction" class="section level2 hasAnchor" number="2.1">
-<h2><span class="header-section-number">2.1</span> Introduction<a href="open-code.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>There are number of organisations and publications advocating open coding in its various guises within the NHS and more generally across the public sector and academia. This page is intended as a place to collate pertinent literature and proposed/tried approaches to implementation of open code policies in situations in the NHS from individual teams up to entire organisations.</p>
-<p>There is also a significant crossover between open code and software engineering best practice, which means that they are often (always?) promoted together as an effective means to improve reproducibility,</p>
-<div id="glossary-draft" class="section level3 hasAnchor" number="2.1.1">
-<h3><span class="header-section-number">2.1.1</span> Glossary (DRAFT)<a href="open-code.html#glossary-draft" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ul>
-<li><strong>Reproducible Analytics Pipelines (RAP)</strong>: analytics processes developed in open source programming languages and adhering to software engineering best practices to allow for reproducing analyses with very little effort.</li>
-<li><strong>Repo/Repository</strong>: a set of files organised in a project for a specific purpose (such as <a href="https://github.com/nhs-r-community/statements-on-tools">statements-on-tools</a> itself), containing code or documentation under version control.</li>
-</ul>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Statement on Tools</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/nhs-r-community/statements-on-tools" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
-</div>
-<div id="references" class="section level2 hasAnchor" number="2.2">
-<h2><span class="header-section-number">2.2</span> References<a href="open-code.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The following is a list of some of the material available online discussing and supporting open coding and software engineering approaches to code development in the NHS:</p>
-<ul>
-<li><a href="https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis">The Goldacre Report</a> - a systematic and far-reaching report, written on behalf of the Department of Health, advocating for open coding and reproducible analytical pipelines (RAP) in the NHS,</li>
-<li><a href="https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/">Office for Statistics Regulation â€“ Overcoming Barriers to Adoption of RAP</a> - a report written in support of RAP for adoption by all government departments doing analytics, describing the challenges and recommending solutions to address those challenges covering both organisational, team-level and individual barriers,</li>
-<li><a href="https://github.com/nhsx/open-source-policy">NHSX Open Source Policy</a> (currently in DRAFT) - a comprehensive description of why and how open source should be implemented in the NHS, including statements about best practice and a checklist for open sourcing code,</li>
-<li><a href="https://github.com/NHSDigital/rap-community-of-practice">NHSD RAP Community of Practice</a> - a repository containing a wealth of material pertaining to setting up and running RAP, including open source - based on their internal work to implement RAP in various NHSD analytical teams.</li>
-</ul>
-</div>
-<div id="specific-challenges" class="section level2 hasAnchor" number="2.3">
-<h2><span class="header-section-number">2.3</span> Specific challenges<a href="open-code.html#specific-challenges" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="opening-code-without-exposing-datasecrets" class="section level3 hasAnchor" number="2.3.1">
-<h3><span class="header-section-number">2.3.1</span> Opening code without exposing data/‘secrets’<a href="open-code.html#opening-code-without-exposing-datasecrets" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>This issue is often raised (and rightly) when discussing open sourcing of code - how do you ensure that personal clinical or other sensitive data are not shared? In practice there are a number of approaches to this (see the <a href="https://github.com/nhsx/open-source-policy">NHSX Open Source Policy</a> for more practical advice on this) including setting up repos with automated checking for datasets and secrets (such as API keys) in order that risk of unintentional disclosure is minimised.</p>
-</div>
-<div id="opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-ip" class="section level3 hasAnchor" number="2.3.2">
-<h3><span class="header-section-number">2.3.2</span> Opening code without giving away commercial/business/clinical proprietary information (and IP)<a href="open-code.html#opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-ip" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Many members of the NHS-R community work in teams or individually without any formal training or support to enable them to determine whether there would be significant ramifications of publishing particular code, especially where business processes might be encoded in the project, or where there might be some IP issue. This makes the prospect of open sourcing rather daunting.</p>
-</div>
-<div id="coding-in-the-open" class="section level3 hasAnchor" number="2.3.3">
-<h3><span class="header-section-number">2.3.3</span> Coding in the open<a href="open-code.html#coding-in-the-open" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>The <a href="https://github.com/nhsx/open-source-policy">NHSX Open Source Policy</a> recommends that all development/analytics work done in the NHS be coded in the open unless there is good reason not to. However it also states that <a href="https://github.com/nhsx/open-source-policy/blob/main/open-source-policy.md#e-assurance-requirements">“an internal code review should be conducted for all open source projects before publication”</a>, which is at odds with coding in the open.</p>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-</div>
-            </section>
-
-          </div>
-        </div>
+    </div>
       </div>
-<a href="purpose.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="statement-on-using-tools.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
-    </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
-<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
-<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
-<script>
-gitbook.require(["gitbook"], function(gitbook) {
-gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/index.Rmd",
-"text": "Edit"
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": ["_main.pdf", "_main.epub"],
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
-});
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./purpose.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Purpose</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./open-code.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Open code in the NHS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./statement-on-using-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Statement on using tools</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nhsr-vision.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">NHS-R vision</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">3.1</span> Introduction</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">3.2</span> References</a>
+  <ul class="collapse">
+  <li><a href="#from-organisationsteams-that-no-longer-operate" id="toc-from-organisationsteams-that-no-longer-operate" class="nav-link" data-scroll-target="#from-organisationsteams-that-no-longer-operate"><span class="header-section-number">3.2.1</span> From organisations/teams that no longer operate</a></li>
+  </ul></li>
+  <li><a href="#specific-challenges" id="toc-specific-challenges" class="nav-link" data-scroll-target="#specific-challenges"><span class="header-section-number">3.3</span> Specific challenges</a>
+  <ul class="collapse">
+  <li><a href="#opening-code-without-exposing-datasecrets" id="toc-opening-code-without-exposing-datasecrets" class="nav-link" data-scroll-target="#opening-code-without-exposing-datasecrets"><span class="header-section-number">3.3.1</span> Opening code without exposing data/‘secrets’</a></li>
+  <li><a href="#opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-intellectual-property" id="toc-opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-intellectual-property" class="nav-link" data-scroll-target="#opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-intellectual-property"><span class="header-section-number">3.3.2</span> Opening code without giving away commercial/business/clinical proprietary information (and Intellectual Property)</a></li>
+  <li><a href="#coding-in-the-open" id="toc-coding-in-the-open" class="nav-link" data-scroll-target="#coding-in-the-open"><span class="header-section-number">3.3.3</span> Coding in the open</a></li>
+  </ul></li>
+  <li><a href="#licenceslicenses" id="toc-licenceslicenses" class="nav-link" data-scroll-target="#licenceslicenses"><span class="header-section-number">3.4</span> Licences/Licenses</a>
+  <ul class="collapse">
+  <li><a href="#language" id="toc-language" class="nav-link" data-scroll-target="#language"><span class="header-section-number">3.4.1</span> Language</a></li>
+  <li><a href="#how-to-use-licences" id="toc-how-to-use-licences" class="nav-link" data-scroll-target="#how-to-use-licences"><span class="header-section-number">3.4.2</span> How to use licences</a></li>
+  <li><a href="#nhs-r-community-use-of-licences" id="toc-nhs-r-community-use-of-licences" class="nav-link" data-scroll-target="#nhs-r-community-use-of-licences"><span class="header-section-number">3.4.3</span> NHS-R Community use of licences</a></li>
+  <li><a href="#setting-up-licenses" id="toc-setting-up-licenses" class="nav-link" data-scroll-target="#setting-up-licenses"><span class="header-section-number">3.4.4</span> Setting up licenses</a></li>
+  </ul></li>
+  <li><a href="#useful-blogs" id="toc-useful-blogs" class="nav-link" data-scroll-target="#useful-blogs"><span class="header-section-number">3.5</span> Useful blogs</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nhs-r-community/statements-on-tools/edit/main/open-code.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/nhs-r-community/statements-on-tools/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Open code in the NHS</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="introduction" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">3.1</span> Introduction</h2>
+<p>There are number of organisations and publications advocating open coding in its various guises within the NHS and more generally across the public sector and academia. This page is intended as a place to collate relevant literature and proposed/tried approaches to implement open code policies in the NHS, from individual teams up to entire organisations.</p>
+<p>There is also a significant crossover between open code and software engineering best practice, which means that they are often promoted together as an effective means to improve reproducibility.</p>
+</section>
+<section id="references" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="references"><span class="header-section-number">3.2</span> References</h2>
+<p>The following is a list of some of the material available discussing and supporting open coding and software engineering approaches to code development in the NHS:</p>
+<ul>
+<li><a href="https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis">Better, broader, safer using health data for research and analysis</a><span class="citation" data-cites="goldacre_2022">[-@goldacre_2022]</span> (also known as The Goldacre Report) - a systematic and far-reaching report, written on behalf of the Department of Health and Social Care, advocating for open coding and Reproducible Analytical Pipelines (RAP) in the NHS,</li>
+<li>Government Analysis Function <a href="https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/">Reproducible Analytical Pipelines (RAP) Strategy</a><span class="citation" data-cites="af-rap">[-@af-rap]</span> - released in June 2022 this is a comprehensive strategy for Government in summarising the finding of the RAP strategy since 2017 and the plan for future work,</li>
+<li><a href="https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data/data-saves-lives-reshaping-health-and-social-care-with-data">Data saves lives: reshaping health and social care with data</a><span class="citation" data-cites="data-saves-lives">[-@data-saves-lives]</span> - a broad document that covers many aspects of “improving trust in the health and care system’s use of data” which extends to how data is used and references the Goldacre Review<span class="citation" data-cites="goldacre_2022">[-@goldacre_2022]</span>,</li>
+<li>Office for Statistics Regulation – <a href="https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/">Overcoming Barriers to Adoption of RAP</a><span class="citation" data-cites="osr_rap">[-@osr_rap]</span> - a report written in support of RAP for adoption by all government departments doing analytics, describing the challenges and recommending solutions to address those challenges covering both organisational, team-level and individual barriers,</li>
+<li><a href="https://analysisfunction.civilservice.gov.uk/policy-store/open-sourcing-analytical-code/">Open sourcing analytical code</a> - from the Analysis Function and first published in March 2023 is guidance for anyone working in government and who is involved or owns analysis pipelines,</li>
+<li><a href="https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html">Quality assurance of code for analysis and research</a><span class="citation" data-cites="duck">[-@duck]</span> - also known as the Duck Book is a living document for Analysis Standards and Pipelines for the Office of National Statistics,</li>
+<li>NHS England <a href="https://www.england.nhs.uk/digitaltechnology/open-source/">Open Source Programme</a><span class="citation" data-cites="nhse-open">[-@nhse-open]</span> - can be found in the Digital Transformation pages,</li>
+<li><a href="https://government.github.com/community/">Government GitHub Community</a> - links to UK Central and Council GitHub repositories amongst many others across the world,</li>
+<li><a href="https://nhsengland.github.io/nhs-r-reporting/">NHS England R Reporting</a><span class="citation" data-cites="nhse_report">[-@nhse_report]</span> - includes tutorials and example A&amp;E Attendance Report,</li>
+</ul>
+<section id="from-organisationsteams-that-no-longer-operate" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="from-organisationsteams-that-no-longer-operate"><span class="header-section-number">3.2.1</span> From organisations/teams that no longer operate</h3>
+<ul>
+<li>NHSx (now NHS England) <a href="https://github.com/nhsx/open-source-policy/blob/main/open-source-policy.md">Open Source Policy</a><span class="citation" data-cites="nhsx_osp">[-@nhsx_osp]</span> - a comprehensive description of why and how open source should be implemented in the NHS, including statements about best practice and a check list for open sourcing code. An <a href="https://github.com/nhsx/open-source-policy/issues/22">issue</a> was opened in Nov 2022 about rebranding to NHS England from NHSx,</li>
+<li>NHS Digital (now NHS England) <a href="https://nhsdigital.github.io/rap-community-of-practice/">RAP Community of Practice</a><span class="citation" data-cites="nhsd_rap">[-@nhsd_rap]</span> - a wealth of material pertaining to setting up and running RAP. The team also write <a href="https://digital.nhs.uk/blog/data-points-blog">blogs</a>,</li>
+<li><a href="https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable">Making source code open and reusable</a><span class="citation" data-cites="gds-open">[-@gds-open]</span> - from the Gov.uk Service Manual for the Government Digital Service,</li>
+<li><a href="https://cdu-data-science-team.github.io/team-blog/index.html">CDU Data Science Blog</a><span class="citation" data-cites="cdu">[-@cdu]</span> - the Clinical Development Unit was a team in Nottinghamshire Healthcare NHS Foundation Trust that coded openly and wrote about some of their approaches on a {distill} blog site. This also features in the <a href="https://transform.england.nhs.uk/key-tools-and-info/digital-playbooks/open-source-digital-playbook/i-want-to-create-a-project-that-can-be-used-by-other-healthcare-organisations/">NHS England playbook</a> which is a series of case examples, and which was itself referred to in the Data Saves Lives document <span class="citation" data-cites="data-saves-lives">[-@data-saves-lives]</span>:</li>
+</ul>
+<blockquote class="blockquote">
+<p>Our commitments We will publish a digital playbook on how to open source your code for health and care organisations. Guidance on where to put the code, how to license and maintain it, and best practice for working with suppliers will be published in addition to case studies of teams who have done this – completed May 2022.</p>
+</blockquote>
+</section>
+</section>
+<section id="specific-challenges" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="specific-challenges"><span class="header-section-number">3.3</span> Specific challenges</h2>
+<section id="opening-code-without-exposing-datasecrets" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="opening-code-without-exposing-datasecrets"><span class="header-section-number">3.3.1</span> Opening code without exposing data/‘secrets’</h3>
+<p>In coding terms exposing <a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets#about-encrypted-secrets">secrets</a> often mean sharing passwords or keys but for the data analysis that occurs in the NHS and other public sector organisations, this will also mean the sharing of personal, clinical or other sensitive data. In practice there are a number of approaches to avoiding this happening, see the specific NHS approaches:</p>
+<ul>
+<li>NHSx Open Source Policy<span class="citation" data-cites="nhsx_osp">[-@nhsx_osp]</span> (note NHSx is now NHS England but this hasn’t been adopted as an NHS England Policy),</li>
+<li>NHS England’s R Reporting<span class="citation" data-cites="nhse_report">[-@nhse_report]</span> and</li>
+<li>CDU Data Science Team <a href="https://cdu-data-science-team.github.io/team-blog/index.html#category:GitHub">blogs about GitHub</a><span class="citation" data-cites="cdu">[-@cdu]</span></li>
+<li>Making source code open and reusable<span class="citation" data-cites="gds-open">[-@gds-open]</span> (provides broad requirements like storing secret keys and credentials separately)</li>
+</ul>
+<p>and these include setting up repositories so there are automated restrictions to prevent and reduce the risk of unintentional disclosure of any sensitive data.</p>
+<p>Nevertheless, we do have to rely upon people using these recommendations and setting up their systems which is very similar to our use of email or social media accounts. As an example, with email we need to rely upon senders using the blind copy in email if the recipients include patients or the public as there is no automated way to prevent a breach of emails otherwise. Consequently, mistakes have and do happen and there are mechanisms which are in place to <a href="https://transform.england.nhs.uk/information-governance/guidance/personal-data-breaches/">report these breaches</a> and does not mean that we prevent people from using email or social media. Systems like GitHub do offer the possibility to set up processes to prevent, reverse and delete accidental sharing (breaches) but are still subject to reporting for near misses and incidents when these occur. However, it may be that these are only reported locally and do not, currently, get shared more widely.</p>
+</section>
+<section id="opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-intellectual-property" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="opening-code-without-giving-away-commercialbusinessclinical-proprietary-information-and-intellectual-property"><span class="header-section-number">3.3.2</span> Opening code without giving away commercial/business/clinical proprietary information (and Intellectual Property)</h3>
+<p>The issue of intellectual property is a very difficult one to argue against, particularly when analysts and data scientists are not necessarily trained or familiar in this area of law. However, it is often used as a reason why not to share specific code, like SQL, but without any formal detail as to how this will be breaking any laws. By publishing SQL code it is often assumed that the structure of the databases, which is owned by a company, could be inadvertently revealed. However, there are examples of clinical database schemas like that of <a href="https://reports.opensafely.org/reports/opensafely-tpp-database-schema/">TPP</a> who own SystmOne and which has been shared as part of the <a href="https://www.opensafely.org/">OpenSafely</a> secure analytics platform for NHS electronic health records and it could be said that discussions related to sharing code should be considered as part of the procurement process. And also Government guidance, <a href="https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed">When code should be open or closed</a>, from the Central Digital &amp; Data Office states:</p>
+<blockquote class="blockquote">
+<p>Unless your database schema contains credentials it is not sensitive and can be open. You should store any credentials separately and keep them closed.</p>
+</blockquote>
+</section>
+<section id="coding-in-the-open" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="coding-in-the-open"><span class="header-section-number">3.3.3</span> Coding in the open</h3>
+<p>There is, currently, no one policy or procedure that can be referred to in terms of coding in the open. Whilst it has been recommended strongly in many of the important reviews available to the NHS like Data Saves Lives -<span class="citation" data-cites="data-saves-lives">@data-saves-lives</span>] and Goldacre Review<span class="citation" data-cites="goldacre_2022">[-@goldacre_2022]</span> there continues to be little guidance on what this looks like in day to day work. Some teams have published in the open, like the CDU Data Science Team <span class="citation" data-cites="cdu">[-@cdu]</span> and features as a case study example, however, the team has changed in approach and name as of 2023 and the blog site is no longer being updated. The NHSx Open Source policy<span class="citation" data-cites="nhsx_osp">[-@nhsx_osp]</span> recommended that all development/analytics work done in the NHS be coded in the open unless there is good reason not to. However, NHSx moved into NHS England in 2022 and the GitHub repository (where this is published) and continues to state:</p>
+<blockquote class="blockquote">
+<p>Current status: Version 1.0 - This policy is currently going through internal review as part of the adoption process.</p>
+</blockquote>
+<p>It is worth noting, in terms of open coding, this document also says:</p>
+<blockquote class="blockquote">
+<p>An internal code review should be conducted for all open source projects and specific responsibilities must be met within or close to the development team.</p>
+</blockquote>
+<p>Reviews could be deemed to slow the process of sharing code openly and so needs to be considered within the context of software code maintenance which is a subject in itself. Books on <a href="https://code-review.tidyverse.org/reviewer/purpose.html">code review principles</a> from the Tidyteam at Posit can be a really good place to start.</p>
+<p>The Making source code open and reusable<span class="citation" data-cites="gds-open">[-@gds-open]</span> suggests making your code open from the start and gives a short check list on what to consider when making existing code open.</p>
+</section>
+</section>
+<section id="licenceslicenses" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="licenceslicenses"><span class="header-section-number">3.4</span> Licences/Licenses</h2>
+<section id="language" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="language"><span class="header-section-number">3.4.1</span> Language</h3>
+<p>To clarify on spelling: <a href="https://www.grammarly.com/blog/licence-license/">license</a> is both a noun and a verb in US English, but in UK English licence may be used for a noun and license as a verb. This becomes important for searches, which is why the header title here has both spelling - just in case.</p>
+<p>The <a href="https://gds-way.cloudapps.digital/manuals/licensing.html#language">GDS Way</a> says:</p>
+<blockquote class="blockquote">
+<p>When using a proper name, use the appropriate spelling for that thing (e.g.&nbsp;the MIT License.)</p>
+</blockquote>
+<p>but also:</p>
+<blockquote class="blockquote">
+<p>Each repository should include a licence file. This should be called LICENCE or LICENCE.md.</p>
+</blockquote>
+</section>
+<section id="how-to-use-licences" class="level3" data-number="3.4.2">
+<h3 data-number="3.4.2" class="anchored" data-anchor-id="how-to-use-licences"><span class="header-section-number">3.4.2</span> How to use licences</h3>
+<p>Although documents like Data saves lives<span class="citation" data-cites="data-saves-lives">[-@data-saves-lives]</span> states there was an intention to:</p>
+<blockquote class="blockquote">
+<p>publish a digital playbook on how to open source your code for health and care organisations. Guidance on where to put the code, how to license and maintain it, and best practice for working with suppliers will be published in addition to case studies of teams who have done this – completed May 2022.</p>
+</blockquote>
+<p>this hasn’t led to any particular document to explain when or how to use licences. The reference to a digital playbook where the requirement is to:</p>
+<blockquote class="blockquote">
+<p>create a project that can be used by other healthcare organisations</p>
+</blockquote>
+<p>links to case study <a href="https://transform.england.nhs.uk/key-tools-and-info/digital-playbooks/open-source-digital-playbook/i-want-to-create-a-project-that-can-be-used-by-other-healthcare-organisations/">scenarios</a> which may have information, but which will require reading through to check and reference. One site that is listed is the CDU Data Science Team<span class="citation" data-cites="cdu">[-@cdu]</span> and whilst this team used licences there was never any explicit mention on how or when to use them.</p>
+<p>Government documents like the Duck book<span class="citation" data-cites="duck">[-@duck]</span> do have sections on <a href="https://best-practice-and-impact.github.io/qa-of-code-guidance/project_documentation.html?highlight=licen#copyright-and-licenses">copyright and licenses</a> and their recommendations, along with the <a href="https://analysisfunction.civilservice.gov.uk/policy-store/open-sourcing-analytical-code/">Analysis Function</a>, are to use <a href="https://opensource.org/license/mit/">MIT</a> and <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">OGL</a>.</p>
+<p>The Making source code open and reusable<span class="citation" data-cites="gds-open">[-@gds-open]</span> <a href="https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable#licensing-your-code">states</a>:</p>
+<blockquote class="blockquote">
+<p>You should publish your code under an <a href="https://opensource.org/licenses">Open Source Initiative compatible licence</a>. For example, GDS uses the <a href="https://gds-way.cloudapps.digital/manuals/licensing.html">MIT licence</a>.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>All code produced by civil servants is automatically covered by <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">Crown Copyright</a>.</p>
+</blockquote>
+<p>However, many people who are part of the NHS-R Community are not considered <a href="https://www.instituteforgovernment.org.uk/explainer/civil-service-staff-numbers#:~:text=In%20this%20way%2C%20civil%20servants,not%20counted%20as%20civil%20servants.">civil servants</a>:</p>
+<blockquote class="blockquote">
+<p>… civil servants are defined much more narrowly than public sector workers: police, teachers, NHS staff, members of the armed forces and local government officers are not counted as civil servants.</p>
+</blockquote>
+<p>Even where a person’s work is covered by being a civil servant, it is still really good practice to include the corresponding licence to any published work as it cannot be assumed that people know the work is covered by the licence or that the person was a civil servant.</p>
+<p>Also, whilst some organisations in the NHS are considered Crown bodies like the Department of Health:</p>
+<blockquote class="blockquote">
+<p>Subsection (7) provides that, like NHS trusts, NHS foundation trusts are not Crown bodies: see paragraph 18 of Schedule 2 to the National Health Service and Community Care Act 1990 (“the 1990 Act”).</p>
+</blockquote>
+<p><a href="https://www.legislation.gov.uk/ukpga/2003/43/notes/division/5/1?view=plain#:~:text=Subsection%20(7)%20provides%20that%2C,%E2%80%9Cthe%201990%20Act%E2%80%9D">Health and Social Care (Community Health and Standards) Act 2003 Explanatory Notes</a>.)</p>
+</section>
+<section id="nhs-r-community-use-of-licences" class="level3" data-number="3.4.3">
+<h3 data-number="3.4.3" class="anchored" data-anchor-id="nhs-r-community-use-of-licences"><span class="header-section-number">3.4.3</span> NHS-R Community use of licences</h3>
+<p>The use of licences by NHS-R Community for the GitHub repositories will be detailed in the NHSR-Way book under <a href="https://nhs-r-community.github.io/NHSR-way/style-guides.html#licenceslicenses">Style Guide for code</a>.</p>
+</section>
+<section id="setting-up-licenses" class="level3" data-number="3.4.4">
+<h3 data-number="3.4.4" class="anchored" data-anchor-id="setting-up-licenses"><span class="header-section-number">3.4.4</span> Setting up licenses</h3>
+<p>There are two ways to starting a repository for sharing on GitHub. Firstly, there is creating a repository directly on the <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository">GitHub website</a> and you can select the appropriate licence as you do that.</p>
+<p>If, however, you create the project locally, using R for example, you can add a licence to it using a package called {usethis} and typing in the R console:</p>
+<pre><code>usethis::use_cc0_license()
+usethis::use_mit_license()</code></pre>
+<p>OGL though does not appear in the selections for {usethis} or GitHub. Crown Copyright sometimes appears as a separate licence as in the <a href="https://github.com/co-analysis/a11ytables">{a11ytables}</a> and sometimes combined as in <a href="https://github.com/alphagov/pay-adminusers/blob/master/LICENCE">pay-aminusers</a>, an example referred to in the <a href="https://gds-way.cloudapps.digital/manuals/licensing.html#example">GDS Way</a>.</p>
+<p>Dual licences, like MIT and CC0 are not so commonly combined and there is more information on the <a href="https://adr.github.io/madr/decisions/0001-use-CC0-or-MIT-as-license.html">GitHub</a> site about dual licensing.</p>
+</section>
+</section>
+<section id="useful-blogs" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="useful-blogs"><span class="header-section-number">3.5</span> Useful blogs</h2>
+<p>https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/<br>
+https://technology.blog.gov.uk/2017/09/27/dont-be-afraid-to-code-in-the-open-heres-how-to-do-it-securely/</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./purpose.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Purpose</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./statement-on-using-tools.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Statement on using tools</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <div class="footer-contents">Statement on Tools by the NHS-R Community
+NHS-R Community makes all of their materials publicly available under open source licenses
+</div>  
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
 
-</body>
 
-</html>
+
+</body></html>
