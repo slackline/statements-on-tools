@@ -98,64 +98,64 @@
     "text": "4.7 What’s the problem\nAs we’ve discussed above, the philosophy of using packages in R is rather different from other approaches. This can cause difficulties, particularly when risk management practices often assume that a programme is a broadly stable lump of functions, rather than a loose coalition of packages. To identify of this issues that we have encountered:\n\nPackages present a moving target for information governance. How can we assess the risk of something that is always liable to change? Our response to this: consider the system (R, RStudio, and packages) as the correct unit of analysis. Because packages are so widely used, it does not make sense to carry out information governance assessments of R by itself.\nThere are so many packages, and there are several different sources for packages. How can we be sure that they are all safe? Our response to this is to point to community standards for packages. For example, CRAN carries out oversight on submitted packages, which have to meet certain standards. This precludes some worries about what might be lurking in a hypothetical package. It is also worth saying that we are aware of no cases where R packages have lead to security problems for users. Nevertheless, there are things to consider and there are packages like {oysteR} that\n\n\nallows users to scan their installed R packages\n\n\nPackages contain data, and therefore need data protection impact assessment. As discussed above, the data in R packages is used for testing, training, and demonstration purposes only, and isn’t a method for sharing live data between users.\nHow can free software be trustworthy? Isn’t there going to be a catch? And who is responsible for ensuring the quality and safety of this software? Free open-source software (FOSS) is now widely used across sectors. Useful comments in FAQ section of HSMA site:\n\n\nIt is also important to highlight that all software has potential vulnerabilities, including the proprietary software that you already have installed. Therefore, good software security practices should be maintained regardless of the software you are using."
   },
   {
-    "objectID": "r-info.html#what-programs-are-required",
-    "href": "r-info.html#what-programs-are-required",
+    "objectID": "technical-r.html#what-programs-are-required",
+    "href": "technical-r.html#what-programs-are-required",
     "title": "5  Technical guidance - R",
     "section": "5.1 What programs are required",
     "text": "5.1 What programs are required\nTo write R code you will need the R program, an IDE (Integrated Development Environment) like RStudio or VSCode and (for Windows) the RTools program.\nIt is possible to code with the R language in just the R program however, it is not possible to use RStudio or VS Code without the R program as it is essentially the “engine”. Both RStudio and VS Code are more visually friendly graphical user interfaces (GUI).\nRTools is used by Windows to build some packages and, although there are sometimes warnings when this isn’t installed, it is not always required. As people in the NHS and other public sector organisations will have to contact IT teams for access to software it is advisable to ask for RTools just in case this is an issue."
   },
   {
-    "objectID": "r-info.html#getting-r",
-    "href": "r-info.html#getting-r",
+    "objectID": "technical-r.html#getting-r",
+    "href": "technical-r.html#getting-r",
     "title": "5  Technical guidance - R",
     "section": "5.2 Getting R",
     "text": "5.2 Getting R\nThe link to to the R program has a few links so for Windows select Download R for Windows, then the subdirectory base which has the same link as install R for the first time. The uppermost link will say Download R- with the version for Windows."
   },
   {
-    "objectID": "r-info.html#packages",
-    "href": "r-info.html#packages",
+    "objectID": "technical-r.html#packages",
+    "href": "technical-r.html#packages",
     "title": "5  Technical guidance - R",
     "section": "5.3 Packages",
     "text": "5.3 Packages\nR programming uses a lot of packages to build on the functionality of R and many of the packages are shared openly through GitHub. From GitHub, some people submit their packages for inclusion into CRAN - The Comprehensive R Archive Network.\nCRAN packages are checked for functionality, for example, that they can run on various operating systems, however, there will not be a check for the validity of content. That means that if there is a mistake in the package, as an example, in a statistical test, this won’t have been checked. However, because all packages are open to view and contribute to bugs, issues and recommendations for improvements can be found in the corresponding GitHub repositories."
   },
   {
-    "objectID": "r-info.html#asking-for-access-to-packages-outside-cran",
-    "href": "r-info.html#asking-for-access-to-packages-outside-cran",
+    "objectID": "technical-r.html#asking-for-access-to-packages-outside-cran",
+    "href": "technical-r.html#asking-for-access-to-packages-outside-cran",
     "title": "5  Technical guidance - R",
     "section": "5.4 Asking for access to packages outside CRAN",
     "text": "5.4 Asking for access to packages outside CRAN\nWhilst some IT teams may restrict access just to CRAN this can be too restrictive as public sector and civil service packages are sometimes not submitted to CRAN due to their being in development (too many changes in quick succession can prevent inclusion into CRAN) or not wishing to go through the checks which may not be necessary (being able to run on a Mac, for example, is not necessary when Windows systems are more commonly used in public sector).\nSome packages are peer reviewed for content such as the UKHSA (previously Public Health England) package {fingertipsR} that is available through ROpenSci. Consequently, when contacting an IT team to have permission to use packages, it is advisable to ask for access to install these yourself, with access to GitHub packages and to be able to update them regularly.\nHaving the ability to install and update packages does not require administrator access on a computer."
   },
   {
-    "objectID": "r-info.html#updating-packages",
-    "href": "r-info.html#updating-packages",
+    "objectID": "technical-r.html#updating-packages",
+    "href": "technical-r.html#updating-packages",
     "title": "5  Technical guidance - R",
     "section": "5.5 Updating packages",
     "text": "5.5 Updating packages\nPackages will be loaded to libraries that are specific to the user if the computer is used on a network drive. Consequently, if installation of packages is on a case by case basis, it will be necessary to ensure that each team member has the package installed in their own user folder.\nAs is good practice with programs and apps, regular checks for updates should be made and if these need to be done by IT this should be scheduled according to the user’s requirements. This is because there are two approaches to updating packages, the first is to update regularly which can be useful to fix any bugs and get updated functions as they are added. However, issues can arise as new functions can have bugs and older bugs may have “workarounds” in analysis code that could break.\n\n\n\n\n\n\nUpdating the R program\n\n\n\n\n\nIt’s worth noting that updating the R program will require packages to be reinstalled. This won’t happen if only RStudio is updated.\n\n\n\nThe other approach to updating packages is in a controlled way so as to not break code. The issue with this is that latest functionality is lost to the analysis and may never be introduced, in case something breaks.\nTo assist with this there are pipeline packages like {renv} which takes a snapshot of the packages as they are used in code and which can be retained within a project environment so that changes outside don’t affect the analysis:\n\nit records the version of R + R packages being used in a project, and provides tools for reinstalling the declared versions of those packages in a project\n\nThese snapshots can also be shared with other members of the team who are working on the same project."
   },
   {
-    "objectID": "r-info.html#quarto",
-    "href": "r-info.html#quarto",
+    "objectID": "technical-r.html#quarto",
+    "href": "technical-r.html#quarto",
     "title": "5  Technical guidance - R",
     "section": "5.6 Quarto",
     "text": "5.6 Quarto\nQuarto is the next generation of reporting from RMarkdown that allows for code and text to be used together to produce a wide variety of outputs like word, pdf, PowerPoint, slides, books and websites. Quarto also allows for more flexibility in use by people who use Python and prefer to use VS Code (or other IDEs).\nThe latest version of Quarto is built into the RStudio IDE itself and to update it is necessary to use download the Quarto CLI (command line interface) https://quarto.org/docs/get-started/.\n\n\nThe Quarto CLI download is a win.msi file so may not require authorisation from IT teams to download and install.\nThe package {quarto} contains functions that can be used in R to run some of the command line commands and isn’t necessary to have if you are happy to use the command line or Terminal as it is known as in RStudio. For example, to preview this book, in the command line the code is:\nquarto render\nbut in R using {quarto} it is:\nquarto::quarto_render()"
   },
   {
-    "objectID": "r-info.html#updating-r-from-a-package",
-    "href": "r-info.html#updating-r-from-a-package",
+    "objectID": "technical-r.html#updating-r-from-a-package",
+    "href": "technical-r.html#updating-r-from-a-package",
     "title": "5  Technical guidance - R",
     "section": "5.7 Updating R from a package",
     "text": "5.7 Updating R from a package\nThe package {installr} has the function updateR() that updates R. A pop up will appear if the version available is later than the one installed but if it is run from RStudio the message:\n\nIt is best to run updateR() from Rgui and not from RStudio. Would you like to abort the installation and run it again from RGui?\n\nwill appear.\n\nTo find the R program in Windows click on the windows icon and start type R.\nIf the program cannot be found and you are on a networked system with user accounts then go to in Windows Explorer and look in the folder C:\\Users\\YOUR.NAME\\AppData\\Local\\Programs\\R\\R-4.3.0\\bin\\x64 with the file being R.exe for just the command line or Rgui.exe which has menus and buttons.\n\nRStudio will not update the R version automatically - the version can be seen at the top of the Console or by typing R.version in the console.\n\nTo update go to Tools/Global options and the opening menu will have R session at the top.\nClicking on the Change... button will open up a screen with the versions of R available to RStudio.\nSelect the third radio button option to select the R version which will mean you can select the version you require.\nRStudio will then prompt to close and restart RStudio."
   },
   {
-    "objectID": "r-info.html#uninstall-previous-versions-of-r",
-    "href": "r-info.html#uninstall-previous-versions-of-r",
+    "objectID": "technical-r.html#uninstall-previous-versions-of-r",
+    "href": "technical-r.html#uninstall-previous-versions-of-r",
     "title": "5  Technical guidance - R",
     "section": "5.8 Uninstall previous versions of R",
     "text": "5.8 Uninstall previous versions of R\nInstalling later versions of R won’t remove the previous and these can stay on a computer or be removed (often requires admin rights to the computer). The package {installr} has a function uninstall.r() which may not required admin rights.\nA prompt window will appear with the versions available to uninstall."
   },
   {
-    "objectID": "r-info.html#installr",
-    "href": "r-info.html#installr",
+    "objectID": "technical-r.html#installr",
+    "href": "technical-r.html#installr",
     "title": "5  Technical guidance - R",
     "section": "5.9 {installr}",
     "text": "5.9 {installr}\n{installr} has a few other functions that could be useful for installing other programs such as:\ninstallr::install.git()\ninstallr::install.python()\ninstallr::install.RStudio() # will open up the relevant page if it cannot install\ninstallr::install.Rtools()"
