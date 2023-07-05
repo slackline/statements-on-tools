@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Statement on Tools - 5&nbsp; Technical guidance - R</title>
+<title>Statement on Tools - Appendix A — Technical guidance - R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./nhsr-vision.html" rel="next">
-<link href="./statement-on-using-tools.html" rel="prev">
+<link href="./glossary.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./technical-r.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Technical guidance - R</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./technical-r.html">Appendices</a></li><li class="breadcrumb-item"><a href="./technical-r.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Technical guidance - R</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -128,22 +127,33 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./technical-r.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Technical guidance - R</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./nhsr-vision.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">NHS-R vision</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">NHS-R vision</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./technical-r.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Technical guidance - R</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -154,15 +164,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#what-programs-are-required" id="toc-what-programs-are-required" class="nav-link active" data-scroll-target="#what-programs-are-required"><span class="header-section-number">5.1</span> What programs are required</a></li>
-  <li><a href="#getting-r" id="toc-getting-r" class="nav-link" data-scroll-target="#getting-r"><span class="header-section-number">5.2</span> Getting R</a></li>
-  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages"><span class="header-section-number">5.3</span> Packages</a></li>
-  <li><a href="#asking-for-access-to-packages-outside-cran" id="toc-asking-for-access-to-packages-outside-cran" class="nav-link" data-scroll-target="#asking-for-access-to-packages-outside-cran"><span class="header-section-number">5.4</span> Asking for access to packages outside CRAN</a></li>
-  <li><a href="#updating-packages" id="toc-updating-packages" class="nav-link" data-scroll-target="#updating-packages"><span class="header-section-number">5.5</span> Updating packages</a></li>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto"><span class="header-section-number">5.6</span> Quarto</a></li>
-  <li><a href="#updating-r-from-a-package" id="toc-updating-r-from-a-package" class="nav-link" data-scroll-target="#updating-r-from-a-package"><span class="header-section-number">5.7</span> Updating R from a package</a></li>
-  <li><a href="#uninstall-previous-versions-of-r" id="toc-uninstall-previous-versions-of-r" class="nav-link" data-scroll-target="#uninstall-previous-versions-of-r"><span class="header-section-number">5.8</span> Uninstall previous versions of R</a></li>
-  <li><a href="#installr" id="toc-installr" class="nav-link" data-scroll-target="#installr"><span class="header-section-number">5.9</span> {installr}</a></li>
+  <li><a href="#what-programs-are-required" id="toc-what-programs-are-required" class="nav-link active" data-scroll-target="#what-programs-are-required"><span class="header-section-number">A.1</span> What programs are required</a></li>
+  <li><a href="#getting-r" id="toc-getting-r" class="nav-link" data-scroll-target="#getting-r"><span class="header-section-number">A.2</span> Getting R</a></li>
+  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages"><span class="header-section-number">A.3</span> Packages</a></li>
+  <li><a href="#asking-for-access-to-packages-outside-cran" id="toc-asking-for-access-to-packages-outside-cran" class="nav-link" data-scroll-target="#asking-for-access-to-packages-outside-cran"><span class="header-section-number">A.4</span> Asking for access to packages outside CRAN</a></li>
+  <li><a href="#updating-packages" id="toc-updating-packages" class="nav-link" data-scroll-target="#updating-packages"><span class="header-section-number">A.5</span> Updating packages</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto"><span class="header-section-number">A.6</span> Quarto</a></li>
+  <li><a href="#updating-r-from-a-package" id="toc-updating-r-from-a-package" class="nav-link" data-scroll-target="#updating-r-from-a-package"><span class="header-section-number">A.7</span> Updating R from a package</a></li>
+  <li><a href="#uninstall-previous-versions-of-r" id="toc-uninstall-previous-versions-of-r" class="nav-link" data-scroll-target="#uninstall-previous-versions-of-r"><span class="header-section-number">A.8</span> Uninstall previous versions of R</a></li>
+  <li><a href="#installr" id="toc-installr" class="nav-link" data-scroll-target="#installr"><span class="header-section-number">A.9</span> {installr}</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nhs-r-community/statements-on-tools/edit/main/technical-r.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/nhs-r-community/statements-on-tools/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -171,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="tech-r" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Technical guidance - R</span></span></h1>
+<h1 class="title"><span id="tech-r" class="quarto-section-identifier">Appendix A — Technical guidance - R</span></h1>
 </div>
 
 
@@ -186,29 +196,29 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="what-programs-are-required" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="what-programs-are-required"><span class="header-section-number">5.1</span> What programs are required</h2>
+<section id="what-programs-are-required" class="level2" data-number="A.1">
+<h2 data-number="A.1" class="anchored" data-anchor-id="what-programs-are-required"><span class="header-section-number">A.1</span> What programs are required</h2>
 <p>To write R code you will need the <a href="https://cran.r-project.org/bin/windows/base/">R program</a>, an IDE (Integrated Development Environment) like <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> or <a href="https://code.visualstudio.com/">VSCode</a> and (for Windows) the <a href="https://cran.r-project.org/bin/windows/Rtools/">RTools</a> program.</p>
 <p>It is possible to code with the R language in just the R program however, it is not possible to use RStudio or VS Code without the R program as it is essentially the “engine”. Both RStudio and VS Code are more visually friendly graphical user interfaces (GUI).</p>
 <p>RTools is used by Windows to build some packages and, although there are sometimes warnings when this isn’t installed, it is not always required. As people in the NHS and other public sector organisations will have to contact IT teams for access to software it is advisable to ask for RTools just in case this is an issue.</p>
 </section>
-<section id="getting-r" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="getting-r"><span class="header-section-number">5.2</span> Getting R</h2>
+<section id="getting-r" class="level2" data-number="A.2">
+<h2 data-number="A.2" class="anchored" data-anchor-id="getting-r"><span class="header-section-number">A.2</span> Getting R</h2>
 <p>The link to to the <a href="https://cran.rstudio.com/">R program</a> has a few links so for Windows select <code>Download R for Windows</code>, then the subdirectory <code>base</code> which has the same link as <code>install R for the first time</code>. The uppermost link will say <code>Download R-</code> with the version <code>for Windows</code>.</p>
 </section>
-<section id="packages" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="packages"><span class="header-section-number">5.3</span> Packages</h2>
+<section id="packages" class="level2" data-number="A.3">
+<h2 data-number="A.3" class="anchored" data-anchor-id="packages"><span class="header-section-number">A.3</span> Packages</h2>
 <p>R programming uses a lot of packages to build on the functionality of R and many of the packages are shared openly through GitHub. From GitHub, some people submit their packages for inclusion into <a href="https://cran.r-project.org/">CRAN</a> - The Comprehensive R Archive Network.</p>
 <p>CRAN packages are checked for functionality, for example, that they can run on various operating systems, however, there will not be a check for the validity of content. That means that if there is a mistake in the package, as an example, in a statistical test, this won’t have been checked. However, because all packages are open to view and contribute to bugs, issues and recommendations for improvements can be found in the corresponding GitHub repositories.</p>
 </section>
-<section id="asking-for-access-to-packages-outside-cran" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="asking-for-access-to-packages-outside-cran"><span class="header-section-number">5.4</span> Asking for access to packages outside CRAN</h2>
+<section id="asking-for-access-to-packages-outside-cran" class="level2" data-number="A.4">
+<h2 data-number="A.4" class="anchored" data-anchor-id="asking-for-access-to-packages-outside-cran"><span class="header-section-number">A.4</span> Asking for access to packages outside CRAN</h2>
 <p>Whilst some IT teams may restrict access just to CRAN this can be too restrictive as public sector and civil service packages are sometimes not submitted to CRAN due to their being in development (too many changes in quick succession can prevent inclusion into CRAN) or not wishing to go through the checks which may not be necessary (being able to run on a Mac, for example, is not necessary when Windows systems are more commonly used in public sector).</p>
 <p>Some packages are peer reviewed for content such as the UKHSA (previously Public Health England) package <a href="https://github.com/ropensci/fingertipsR">{fingertipsR}</a> that is available through <a href="https://ropensci.org/">ROpenSci</a>. Consequently, when contacting an IT team to have permission to use packages, it is advisable to ask for access to install these yourself, with access to GitHub packages and to be able to update them regularly.</p>
 <p>Having the ability to install and update packages does not require administrator access on a computer.</p>
 </section>
-<section id="updating-packages" class="level2" data-number="5.5">
-<h2 data-number="5.5" class="anchored" data-anchor-id="updating-packages"><span class="header-section-number">5.5</span> Updating packages</h2>
+<section id="updating-packages" class="level2" data-number="A.5">
+<h2 data-number="A.5" class="anchored" data-anchor-id="updating-packages"><span class="header-section-number">A.5</span> Updating packages</h2>
 <p>Packages will be loaded to libraries that are specific to the user if the computer is used on a network drive. Consequently, if installation of packages is on a case by case basis, it will be necessary to ensure that each team member has the package installed in their own user folder.</p>
 <p>As is good practice with programs and apps, regular checks for updates should be made and if these need to be done by IT this should be scheduled according to the user’s requirements. This is because there are two approaches to updating packages, the first is to update regularly which can be useful to fix any bugs and get updated functions as they are added. However, issues can arise as new functions can have bugs and older bugs may have “workarounds” in analysis code that could break.</p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -234,8 +244,8 @@ Updating the R program
 </blockquote>
 <p>These snapshots can also be shared with other members of the team who are working on the same project.</p>
 </section>
-<section id="quarto" class="level2 page-columns page-full" data-number="5.6">
-<h2 data-number="5.6" class="anchored" data-anchor-id="quarto"><span class="header-section-number">5.6</span> Quarto</h2>
+<section id="quarto" class="level2 page-columns page-full" data-number="A.6">
+<h2 data-number="A.6" class="anchored" data-anchor-id="quarto"><span class="header-section-number">A.6</span> Quarto</h2>
 <p>Quarto is the next generation of reporting from RMarkdown that allows for code and text to be used together to produce a wide variety of outputs like word, pdf, PowerPoint, slides, books and websites. Quarto also allows for more flexibility in use by people who use Python and prefer to use VS Code (or other IDEs).</p>
 <p>The latest version of Quarto is built into the RStudio IDE itself and to update it is necessary to use download the Quarto CLI (command line interface) https://quarto.org/docs/get-started/.</p>
 
@@ -246,8 +256,8 @@ Updating the R program
 <p>but in R using {quarto} it is:</p>
 <p><code>quarto::quarto_render()</code></p>
 </section>
-<section id="updating-r-from-a-package" class="level2" data-number="5.7">
-<h2 data-number="5.7" class="anchored" data-anchor-id="updating-r-from-a-package"><span class="header-section-number">5.7</span> Updating R from a package</h2>
+<section id="updating-r-from-a-package" class="level2" data-number="A.7">
+<h2 data-number="A.7" class="anchored" data-anchor-id="updating-r-from-a-package"><span class="header-section-number">A.7</span> Updating R from a package</h2>
 <p>The package {installr} has the function <code>updateR()</code> that updates R. A pop up will appear if the version available is later than the one installed but if it is run from RStudio the message:</p>
 <blockquote class="blockquote">
 <p>It is best to run <code>updateR()</code> from Rgui and not from RStudio. Would you like to abort the installation and run it again from RGui?</p>
@@ -265,13 +275,13 @@ Updating the R program
 <li>RStudio will then prompt to close and restart RStudio.</li>
 </ul>
 </section>
-<section id="uninstall-previous-versions-of-r" class="level2" data-number="5.8">
-<h2 data-number="5.8" class="anchored" data-anchor-id="uninstall-previous-versions-of-r"><span class="header-section-number">5.8</span> Uninstall previous versions of R</h2>
+<section id="uninstall-previous-versions-of-r" class="level2" data-number="A.8">
+<h2 data-number="A.8" class="anchored" data-anchor-id="uninstall-previous-versions-of-r"><span class="header-section-number">A.8</span> Uninstall previous versions of R</h2>
 <p>Installing later versions of R won’t remove the previous and these can stay on a computer or be removed (often requires admin rights to the computer). The package {installr} has a function <code>uninstall.r()</code> which may not required admin rights.</p>
 <p>A prompt window will appear with the versions available to uninstall.</p>
 </section>
-<section id="installr" class="level2" data-number="5.9">
-<h2 data-number="5.9" class="anchored" data-anchor-id="installr"><span class="header-section-number">5.9</span> {installr}</h2>
+<section id="installr" class="level2" data-number="A.9">
+<h2 data-number="A.9" class="anchored" data-anchor-id="installr"><span class="header-section-number">A.9</span> {installr}</h2>
 <p>{installr} has a few other functions that could be useful for installing other programs such as:</p>
 <pre><code>installr::install.git()
 installr::install.python()
@@ -517,14 +527,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./statement-on-using-tools.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Statement on using tools - R</span></span>
+      <a href="./glossary.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Glossary</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./nhsr-vision.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">NHS-R vision</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
