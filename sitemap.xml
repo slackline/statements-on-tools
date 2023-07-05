@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/nhs-r-community/statements-on-tools/index.html</loc>
-    <lastmod>2023-07-03T14:19:50.117Z</lastmod>
+    <loc>https://tools.nhsrcommunity.com/index.html</loc>
+    <lastmod>2023-07-05T11:39:26.047Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/statements-on-tools/purpose.html</loc>
-    <lastmod>2023-07-03T14:19:50.125Z</lastmod>
+    <loc>https://tools.nhsrcommunity.com/purpose.html</loc>
+    <lastmod>2023-07-05T11:39:26.050Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/statements-on-tools/open-code.html</loc>
-    <lastmod>2023-07-03T14:19:50.141Z</lastmod>
+    <loc>https://tools.nhsrcommunity.com/open-code.html</loc>
+    <lastmod>2023-07-05T11:39:26.056Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/statements-on-tools/statement-on-using-tools.html</loc>
-    <lastmod>2023-07-03T14:19:50.157Z</lastmod>
+    <loc>https://tools.nhsrcommunity.com/statement-on-using-tools.html</loc>
+    <lastmod>2023-07-05T11:39:26.061Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/statements-on-tools/nhsr-vision.html</loc>
-    <lastmod>2023-07-03T14:19:50.161Z</lastmod>
+    <loc>https://tools.nhsrcommunity.com/r-info.html</loc>
+    <lastmod>2023-07-05T11:39:26.066Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/statements-on-tools/glossary.html</loc>
-    <lastmod>2023-07-03T14:19:50.169Z</lastmod>
+    <loc>https://tools.nhsrcommunity.com/nhsr-vision.html</loc>
+    <lastmod>2023-07-05T11:39:26.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tools.nhsrcommunity.com/glossary.html</loc>
+    <lastmod>2023-07-05T11:39:26.074Z</lastmod>
   </url>
 </urlset>
