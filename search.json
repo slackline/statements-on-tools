@@ -201,5 +201,12 @@
     "title": "Appendix A — Technical guidance - R",
     "section": "A.9 {installr}",
     "text": "A.9 {installr}\n{installr} has a few other functions that could be useful for installing other programs such as:\ninstallr::install.git()\ninstallr::install.python()\ninstallr::install.RStudio() # will open up the relevant page if it cannot install\ninstallr::install.Rtools()"
+  },
+  {
+    "objectID": "technical-python.html#what-programs-are-required",
+    "href": "technical-python.html#what-programs-are-required",
+    "title": "Appendix B — Technical guidance - Python",
+    "section": "B.1 What programs are required",
+    "text": "B.1 What programs are required\nContent to be added, committing this to see if the book renders in GitHub Actions."
   }
 ]
