@@ -203,9 +203,51 @@
     "text": "B.1 What programs are required\nContent to be added, committing this to see if the book renders in GitHub Actions."
   },
   {
+    "objectID": "contribution.html#contributing-workflow",
+    "href": "contribution.html#contributing-workflow",
+    "title": "Appendix C — Contributing to GitHub repositories",
+    "section": "C.1 Contributing workflow",
+    "text": "C.1 Contributing workflow\nIf you’re new to Github and/or Markdown, Github’s own contributor’s guide provides a good overview of these topics.\nTo contribute:\n\nReview the issue list, raise an issue if required\nFork this repository\nMake changes or add new scripts\nCommit and push to your own repository\nCreate a new pull request detailing your additions\nWait for pull request to be reviewed, and merged (not everyone will have permission to merge pull requests)\nCelebrate your first step into the open source world and contribute more!"
+  },
+  {
+    "objectID": "contribution.html#using-issues",
+    "href": "contribution.html#using-issues",
+    "title": "Appendix C — Contributing to GitHub repositories",
+    "section": "C.2 Using issues",
+    "text": "C.2 Using issues\nIf you spot something that needs to be changed, or would like to suggest some new content, please raise an issue.\nBefore raising a new issue, have a look through the existing ones in case it’s already been raised."
+  },
+  {
+    "objectID": "contribution.html#pull-requests-and-merging",
+    "href": "contribution.html#pull-requests-and-merging",
+    "title": "Appendix C — Contributing to GitHub repositories",
+    "section": "C.3 Pull requests and merging",
+    "text": "C.3 Pull requests and merging\n\nIf you have a change (or a new page) to raise, please create an issue first as there may be someone thinking of contributing something similar.\nThe main branch will be restricted to just those with access to the repository and they are asked to not commit directly as good practice.\nFor all changes you will need to create a fork, and then a pull request (click compare across forks and select your version).\n\nPlease reference the issue the pull request resolves, so it will be closed automatically."
+  },
+  {
+    "objectID": "contribution.html#contributing-any-datasets",
+    "href": "contribution.html#contributing-any-datasets",
+    "title": "Appendix C — Contributing to GitHub repositories",
+    "section": "C.4 Contributing any datasets",
+    "text": "C.4 Contributing any datasets\nParticularly for packages like {NHSRdatasets}:\n\nAdd your dataset in the data folder, in .rda format.\nThe best way to do this is with the {usethis} package with “gzip” compression: usethis::use_data(data, compress=\"gzip\")"
+  },
+  {
+    "objectID": "contribution.html#contributing-guidelines-and-etiquette",
+    "href": "contribution.html#contributing-guidelines-and-etiquette",
+    "title": "Appendix C — Contributing to GitHub repositories",
+    "section": "C.5 Contributing guidelines and etiquette",
+    "text": "C.5 Contributing guidelines and etiquette\n\nPreview your Markdown code to make sure the format is not broken.\nMaterial, including commit messages, should be written in clear and simple English.\nNothing included should be confidential, private or disclose any personal or sensitive data (and that is also necessary for commits as well as code).\nFollow the code of conduct in the repository at all times.\nFor further guidance refer to the NHS-R Way Style Guides.\n\nWhen contributing any additions, the contributor certifies that they are the author, or has cited the author and is authorised to reuse/reference the material"
+  },
+  {
+    "objectID": "contribution.html#acknowledgements",
+    "href": "contribution.html#acknowledgements",
+    "title": "Appendix C — Contributing to GitHub repositories",
+    "section": "C.6 Acknowledgements",
+    "text": "C.6 Acknowledgements\nThis contributing guide is adapted from NHS Digital’s Contributor’s Guide."
+  },
+  {
     "objectID": "glossary.html",
     "href": "glossary.html",
-    "title": "Appendix C — Glossary",
+    "title": "Appendix D — Glossary",
     "section": "",
     "text": "Reproducible Analytics Pipelines (RAP): analytics processes developed in open source programming languages and adhering to software engineering best practices to allow for reproducing analyses with very little effort.\nRepo/Repository: a set of files organised in a project for a specific purpose, containing code or documentation under version control.\nOGL: Open Government License\nMIT: Massachusetts Institute of Technology (license)\nCC0: Creative Commons (license)\nGDS: Government Digital Services\nAF: Analysis Function"
   }

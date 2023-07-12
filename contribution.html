@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Statement on Tools - Appendix D — Glossary</title>
+<title>Statement on Tools - Appendix C — Contributing to GitHub repositories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./contribution.html" rel="prev">
+<link href="./glossary.html" rel="next">
+<link href="./technical-python.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./technical-r.html">Appendices</a></li><li class="breadcrumb-item"><a href="./glossary.html"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Glossary</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./technical-r.html">Appendices</a></li><li class="breadcrumb-item"><a href="./contribution.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Contributing to GitHub repositories</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -154,13 +155,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./contribution.html" class="sidebar-item-text sidebar-link">
+  <a href="./contribution.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Contributing to GitHub repositories</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossary.html" class="sidebar-item-text sidebar-link active">
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
@@ -172,14 +173,25 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#contributing-workflow" id="toc-contributing-workflow" class="nav-link active" data-scroll-target="#contributing-workflow"><span class="header-section-number">C.1</span> Contributing workflow</a></li>
+  <li><a href="#using-issues" id="toc-using-issues" class="nav-link" data-scroll-target="#using-issues"><span class="header-section-number">C.2</span> Using issues</a></li>
+  <li><a href="#pull-requests-and-merging" id="toc-pull-requests-and-merging" class="nav-link" data-scroll-target="#pull-requests-and-merging"><span class="header-section-number">C.3</span> Pull requests and merging</a></li>
+  <li><a href="#contributing-any-datasets" id="toc-contributing-any-datasets" class="nav-link" data-scroll-target="#contributing-any-datasets"><span class="header-section-number">C.4</span> Contributing any datasets</a></li>
+  <li><a href="#contributing-guidelines-and-etiquette" id="toc-contributing-guidelines-and-etiquette" class="nav-link" data-scroll-target="#contributing-guidelines-and-etiquette"><span class="header-section-number">C.5</span> Contributing guidelines and etiquette</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements"><span class="header-section-number">C.6</span> Acknowledgements</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nhs-r-community/statements-on-tools/edit/main/contribution.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/nhs-r-community/statements-on-tools/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Appendix D — Glossary</h1>
+<h1 class="title">Appendix C — Contributing to GitHub repositories</h1>
 </div>
 
 
@@ -194,17 +206,60 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>The NHS-R Community welcomes contributions in the form of bug fixes and improvements.</p>
+<section id="contributing-workflow" class="level2" data-number="C.1">
+<h2 data-number="C.1" class="anchored" data-anchor-id="contributing-workflow"><span class="header-section-number">C.1</span> Contributing workflow</h2>
+<p>If you’re new to Github and/or Markdown, <a href="https://github.com/github/docs/blob/main/CONTRIBUTING.md">Github’s own contributor’s guide</a> provides a good overview of these topics.</p>
+<p>To contribute:</p>
 <ul>
-<li><strong>Reproducible Analytics Pipelines (RAP)</strong>: analytics processes developed in open source programming languages and adhering to software engineering best practices to allow for reproducing analyses with very little effort.</li>
-<li><strong>Repo/Repository</strong>: a set of files organised in a project for a specific purpose, containing code or documentation under version control.</li>
-<li><strong>OGL</strong>: Open Government License</li>
-<li><strong>MIT</strong>: Massachusetts Institute of Technology (license)</li>
-<li><strong>CC0</strong>: Creative Commons (license)</li>
-<li><strong>GDS</strong>: Government Digital Services</li>
-<li><strong>AF</strong>: Analysis Function</li>
+<li>Review the <a href="#using-issues">issue</a> list, raise an issue if required</li>
+<li>Fork this repository</li>
+<li>Make changes or add new scripts</li>
+<li>Commit and push to your own repository</li>
+<li>Create a new <a href="#pull-requests-and-merging">pull request</a> detailing your additions</li>
+<li>Wait for pull request to be reviewed, and merged (not everyone will have permission to merge pull requests)</li>
+<li>Celebrate your first step into the open source world and contribute more!</li>
 </ul>
+</section>
+<section id="using-issues" class="level2" data-number="C.2">
+<h2 data-number="C.2" class="anchored" data-anchor-id="using-issues"><span class="header-section-number">C.2</span> Using issues</h2>
+<p>If you spot something that needs to be changed, or would like to suggest some new content, please raise an issue.</p>
+<p>Before raising a new issue, have a look through the existing ones in case it’s already been raised.</p>
+</section>
+<section id="pull-requests-and-merging" class="level2" data-number="C.3">
+<h2 data-number="C.3" class="anchored" data-anchor-id="pull-requests-and-merging"><span class="header-section-number">C.3</span> Pull requests and merging</h2>
+<ul>
+<li><p>If you have a change (or a new page) to raise, please create an issue first as there may be someone thinking of contributing something similar.</p></li>
+<li><p>The main branch will be restricted to just those with access to the repository and they are asked to not commit directly as good practice.</p></li>
+<li><p>For all changes you will need to create a fork, and then a pull request (click compare across forks and select your version).</p></li>
+</ul>
+<p>Please <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue">reference the issue the pull request resolves</a>, so it will be closed automatically.</p>
+</section>
+<section id="contributing-any-datasets" class="level2" data-number="C.4">
+<h2 data-number="C.4" class="anchored" data-anchor-id="contributing-any-datasets"><span class="header-section-number">C.4</span> Contributing any datasets</h2>
+<p>Particularly for packages like <a href="https://github.com/nhs-r-community/NHSRdatasets">{NHSRdatasets}</a>:</p>
+<ul>
+<li>Add your dataset in the <code>data</code> folder, in <code>.rda</code> format.<br>
+The best way to do this is with the {usethis} package with “gzip” compression: <code>usethis::use_data(data, compress="gzip")</code></li>
+</ul>
+</section>
+<section id="contributing-guidelines-and-etiquette" class="level2" data-number="C.5">
+<h2 data-number="C.5" class="anchored" data-anchor-id="contributing-guidelines-and-etiquette"><span class="header-section-number">C.5</span> Contributing guidelines and etiquette</h2>
+<ul>
+<li>Preview your Markdown code to make sure the format is not broken.</li>
+<li>Material, including commit messages, should be written in clear and simple English.</li>
+<li>Nothing included should be confidential, private or disclose any personal or sensitive data (and that is also necessary for commits as well as code).</li>
+<li>Follow the code of conduct in the repository at all times.</li>
+<li>For further guidance refer to the NHS-R Way <a href="https://nhsrway.nhsrcommunity.com/style-guides.html">Style Guides</a>.</li>
+</ul>
+<p>When contributing any additions, the contributor certifies that they are the author, or has cited the author and is authorised to reuse/reference the material</p>
+</section>
+<section id="acknowledgements" class="level2" data-number="C.6">
+<h2 data-number="C.6" class="anchored" data-anchor-id="acknowledgements"><span class="header-section-number">C.6</span> Acknowledgements</h2>
+<p>This contributing guide is adapted from <a href="https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/.github/CONTRIBUTING.md">NHS Digital’s Contributor’s Guide</a>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -442,11 +497,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./contribution.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Contributing to GitHub repositories</span></span>
+      <a href="./technical-python.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Technical guidance - Python</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./glossary.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Glossary</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -459,7 +517,7 @@ NHS-R Community makes all of their materials publicly available under open sourc
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nhs-r-community/statements-on-tools/edit/main/glossary.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/nhs-r-community/statements-on-tools/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
