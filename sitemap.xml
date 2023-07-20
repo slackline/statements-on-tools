@@ -2,38 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tools.nhsrcommunity.com/index.html</loc>
-    <lastmod>2023-07-20T13:04:23.002Z</lastmod>
+    <lastmod>2023-07-20T13:09:43.772Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/purpose.html</loc>
-    <lastmod>2023-07-20T13:04:23.006Z</lastmod>
+    <lastmod>2023-07-20T13:09:43.776Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/open-code.html</loc>
-    <lastmod>2023-07-20T13:04:23.014Z</lastmod>
+    <lastmod>2023-07-20T13:09:43.783Z</lastmod>
   </url>
   <url>
-    <loc>https://tools.nhsrcommunity.com/statement-on-using-tools.html</loc>
-    <lastmod>2023-07-20T13:04:23.023Z</lastmod>
+    <loc>https://tools.nhsrcommunity.com/statement-on-using-tools-r.html</loc>
+    <lastmod>2023-07-20T13:09:43.792Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tools.nhsrcommunity.com/statement-on-using-tools-python.html</loc>
+    <lastmod>2023-07-20T13:09:43.796Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tools.nhsrcommunity.com/statement-on-using-tools-git.html</loc>
+    <lastmod>2023-07-20T13:09:43.800Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/nhsr-vision.html</loc>
-    <lastmod>2023-07-20T13:04:23.028Z</lastmod>
+    <lastmod>2023-07-20T13:09:43.806Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/technical-r.html</loc>
-    <lastmod>2023-07-20T13:04:23.033Z</lastmod>
+    <lastmod>2023-07-20T13:09:43.812Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/technical-python.html</loc>
-    <lastmod>2023-07-20T13:04:23.037Z</lastmod>
+    <lastmod>2023-07-20T13:09:43.816Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/contribution.html</loc>
-    <lastmod>2023-07-20T13:04:23.051Z</lastmod>
+    <lastmod>2023-07-20T13:09:43.821Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/glossary.html</loc>
-    <lastmod>2023-07-20T13:04:23.055Z</lastmod>
+    <lastmod>2023-07-20T13:09:43.825Z</lastmod>
   </url>
 </urlset>
