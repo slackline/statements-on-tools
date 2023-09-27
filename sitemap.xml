@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tools.nhsrcommunity.com/index.html</loc>
-    <lastmod>2023-07-20T13:16:00.419Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.744Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/purpose.html</loc>
-    <lastmod>2023-07-20T13:16:00.427Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.748Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/open-code.html</loc>
-    <lastmod>2023-07-20T13:16:00.435Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.760Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/statement-on-using-tools-r.html</loc>
-    <lastmod>2023-07-20T13:16:00.443Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.768Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/statement-on-using-tools-python.html</loc>
-    <lastmod>2023-07-20T13:16:00.447Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.772Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/statement-on-using-tools-git.html</loc>
-    <lastmod>2023-07-20T13:16:00.451Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tools.nhsrcommunity.com/statement-on-using-tools-shiny.html</loc>
+    <lastmod>2023-09-27T13:28:55.784Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/nhsr-vision.html</loc>
-    <lastmod>2023-07-20T13:16:00.467Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.792Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/technical-r.html</loc>
-    <lastmod>2023-07-20T13:16:00.475Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.800Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/technical-python.html</loc>
-    <lastmod>2023-07-20T13:16:00.479Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.804Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/contribution.html</loc>
-    <lastmod>2023-07-20T13:16:00.487Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.812Z</lastmod>
   </url>
   <url>
     <loc>https://tools.nhsrcommunity.com/glossary.html</loc>
-    <lastmod>2023-07-20T13:16:00.491Z</lastmod>
+    <lastmod>2023-09-27T13:28:55.816Z</lastmod>
   </url>
 </urlset>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Statement on Tools - 6&nbsp; Statement on using tools - Git and GitHub</title>
+<title>Statement on Tools - 7&nbsp; Statement on using tools - Shiny</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./statement-on-using-tools-shiny.html" rel="next">
-<link href="./statement-on-using-tools-python.html" rel="prev">
+<link href="./nhsr-vision.html" rel="next">
+<link href="./statement-on-using-tools-git.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./statement-on-using-tools-git.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Statement on using tools - Git and GitHub</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./statement-on-using-tools-shiny.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Statement on using tools - Shiny</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -134,13 +134,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./statement-on-using-tools-git.html" class="sidebar-item-text sidebar-link active">
+  <a href="./statement-on-using-tools-git.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Statement on using tools - Git and GitHub</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./statement-on-using-tools-shiny.html" class="sidebar-item-text sidebar-link">
+  <a href="./statement-on-using-tools-shiny.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Statement on using tools - Shiny</span></span></a>
   </div>
 </li>
@@ -191,14 +191,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#posit-connect-server" id="toc-posit-connect-server" class="nav-link active" data-scroll-target="#posit-connect-server"><span class="header-section-number">7.1</span> Posit Connect server</a></li>
+  <li><a href="#shinyapps.io" id="toc-shinyapps.io" class="nav-link" data-scroll-target="#shinyapps.io"><span class="header-section-number">7.2</span> shinyapps.io</a></li>
+  <li><a href="#network-file-storage" id="toc-network-file-storage" class="nav-link" data-scroll-target="#network-file-storage"><span class="header-section-number">7.3</span> Network file storage</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nhs-r-community/statements-on-tools/edit/main/statement-on-using-tools-shiny.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/nhs-r-community/statements-on-tools/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Statement on using tools - Git and GitHub</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Statement on using tools - Shiny</span></h1>
 </div>
 
 
@@ -213,9 +221,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>[TODO] Holding text to be clear this is broader in scope than just R</p>
+<p><a href="https://cran.r-project.org/web/packages/shiny/index.html">Shiny</a> is an R package which allows users to create dashboards. Although it is very easy to build Shiny dashboards on a local computer, developers in health and social care often get stuck when they want to share their dashboard with others. There are numerous ways to go about this depending on who you want to share it with and where they are, and some of the methods are listed below.</p>
+<section id="posit-connect-server" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="posit-connect-server"><span class="header-section-number">7.1</span> Posit Connect server</h2>
+<p><a href="https://posit.co/products/enterprise/connect/">Posit Connect</a> is probably the simplest way to share a Shiny application once it is set up and working, however it is not free. You will also need a Linux server, either in the cloud or on your organisations network, on which to run the software. Once it is set up you will have access to a wide range of features, including authenticated access to Shiny dashboards and RMarkdown/ Quarto documents, as well as the facility to run RMarkdown/ Quarto on a schedule. Note also that Posit Connect works with Python content.</p>
+</section>
+<section id="shinyapps.io" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="shinyapps.io"><span class="header-section-number">7.2</span> shinyapps.io</h2>
+<p><a href="https://www.shinyapps.io/">shinyapps.io</a> is also a paid service which can give you the ability to easily deploy Shiny applications in the cloud, and you can optionally add user authentication to your Shiny applications. The downside is that shinyapps.io is not suitable for use with sensitive data because you have no control over which server your data is hosted on.</p>
+</section>
+<section id="network-file-storage" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="network-file-storage"><span class="header-section-number">7.3</span> Network file storage</h2>
+<p>You can distribute Shiny applications and the data associated with them on your organisational network file storage. This is a very secure way of distributing your work but the downside is that the people you are sharing it with need to actually run the code themselves with an installation of R and all of the packages in the Shiny application. This method is therefore only really useful to share your work with other data scientists.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -453,13 +473,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./statement-on-using-tools-python.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Statement on using tools - Python</span></span>
+      <a href="./statement-on-using-tools-git.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Statement on using tools - Git and GitHub</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./statement-on-using-tools-shiny.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Statement on using tools - Shiny</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./nhsr-vision.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">NHS-R vision</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -473,7 +493,7 @@ NHS-R Community makes all of their materials publicly available under open sourc
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nhs-r-community/statements-on-tools/edit/main/statement-on-using-tools-git.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/nhs-r-community/statements-on-tools/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
